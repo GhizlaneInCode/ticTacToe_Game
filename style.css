@@ -80,12 +80,12 @@ h1 {
 }
 
 .footer hr {
-    width: 80px;
+    width: 50px;
     border: none;
     border-bottom: 1px solid #b0aeae;
 }
 
 .footer p {
-    font-size: 10px;
+    font-size: 15px;
     color: #b0aeae;
 }
