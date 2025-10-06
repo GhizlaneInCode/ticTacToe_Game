@@ -19,6 +19,50 @@ h1 {
     border-radius: 15px;
 }
 
+.emoji-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.emoji-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.emoji-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.emoji-btn {
+    font-size: 28px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #f2f2f2;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.emoji-btn:hover {
+    background: #ddd;
+}
+
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 150px);
@@ -80,7 +124,7 @@ h1 {
 }
 
 .footer hr {
-    width: 80px;
+    width: 50px;
     border: none;
     border-bottom: 1px solid #b0aeae;
 }

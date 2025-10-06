@@ -8,6 +8,23 @@
   </head>
   <body>
     <h1 class="title">X - O Game</h1>
+
+    <!-- Emoji Selection Modal -->
+    <div id="emojiModal" class="emoji-modal">
+      <div class="emoji-box">
+        <h2>Choose your Emoji</h2>
+        <div class="emoji-options">
+          <button class="emoji-btn">❌</button>
+          <button class="emoji-btn">⭕</button>
+          <button class="emoji-btn">😎</button>
+          <button class="emoji-btn">🐱</button>
+          <button class="emoji-btn">🚀</button>
+          <button class="emoji-btn">🍕</button>
+          <button class="emoji-btn">❤️</button>
+        </div>
+      </div>
+    </div>
+
     <div id="board" class="board">
       <div class="cell" data-index="0"></div>
       <div class="cell" data-index="1"></div>
@@ -22,9 +39,10 @@
 
     <div class="footer">
       <hr />
-      <p>&copy; Made by Ghizlane ❤ <span id="currentYear"></span></p>
+      <p>&copy; Made with ❤️ by Ghizlane <span id="currentYear"></span></p>
       <hr />
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
